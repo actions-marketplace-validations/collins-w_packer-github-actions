@@ -5,7 +5,7 @@ COPY "entrypoint.sh" "/entrypoint.sh"
 
 ENTRYPOINT ["/entrypoint.sh"]
 
-FROM python:3.7.6-stretch
+FROM python:3.9-alpine
 
 RUN pip install pip --upgrade
 RUN pip install ansible
