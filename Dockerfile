@@ -7,5 +7,5 @@ ENTRYPOINT ["/entrypoint.sh"]
 
 FROM python:3.9-alpine
 
-RUN pip install pip --upgrade
-RUN pip install ansible
+RUN pip3 install pip3 --upgrade
+RUN pip3 install ansible
